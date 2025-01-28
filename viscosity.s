@@ -1,3 +1,4 @@
+    !Asumiendo que los valores estan cargados en los respectivos espacios
     mov pos, %l0  
     mov vel, %l1   
     mov viscosidad, %l2  
