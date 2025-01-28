@@ -10,7 +10,7 @@ main:
   mov VEL_INIT, %l1       ! vel = 50
   mov VISCOSIDAD_INIT, %l2  ! b = 2
   mov TIEMPO_INIT, %l3    ! dt = 1
-  mov PASOS_INIT, %l4     ! steps = 1000
+  mov PASOS_INIT, %l4     ! pasos = 1000
 
 ciclo:
   smul %l2, %l1, %l5   ! F = -b * v 
