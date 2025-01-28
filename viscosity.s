@@ -1,3 +1,5 @@
+.global _start
+
 _start:
   define (POS_INIT, 0)         
   define (VEL_INIT, 500)       
@@ -5,7 +7,6 @@ _start:
   define (TIEMPO_INIT, 10)       
   define (PASOS_INIT, 1)
   
-.global main
 main:
   mov POS_INIT, %l0      
   mov VEL_INIT, %l1       
