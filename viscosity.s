@@ -25,6 +25,6 @@ ciclo:
   subcc %l4, 1, %l4    ! 
   bne ciclo            ! != 0
   smul %l2, %l1, %l5   ! Inicia F = -b*v para la siguiente iteracion
-    bne ciclo
+  bne ciclo
 final:
   nop
