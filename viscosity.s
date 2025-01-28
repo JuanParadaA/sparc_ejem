@@ -1,3 +1,4 @@
+_start:
   define (POS_INIT, 0)         
   define (VEL_INIT, 500)       
   define (VISCOSIDAD_INIT, 1000)     
