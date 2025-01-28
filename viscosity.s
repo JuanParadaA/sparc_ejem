@@ -1,13 +1,12 @@
-.global _start
+.global main
 
-_start:
+main:
   define (POS_INIT, 0)         
   define (VEL_INIT, 500)       
   define (VISCOSIDAD_INIT, 1000)     
   define (TIEMPO_INIT, 10)       
   define (PASOS_INIT, 1)
   
-main:
   mov POS_INIT, %l0      
   mov VEL_INIT, %l1       
   mov VISCOSIDAD_INIT, %l2 
